@@ -1,0 +1,21 @@
+input[tyoe=text], select
+{
+	display: inline-block;
+	width: 100%1;
+}
+
+section
+{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+form
+{
+	width: 75%;
+}
+
+body
+{
+	background-color: #f2f2f2;
+}
