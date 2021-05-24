@@ -1,21 +1,100 @@
-input[tyoe=text], select
+input[type=text], select, input[type=text], textarea
 {
-	display: inline-block;
-	width: 100%1;
+	display: block;
+	margin: 0 auto;
+}
+
+input[type=checkbox]
+{
+	display: block;
+	margin: 0 auto;
+}
+
+.check
+{
+	margin: 0 auto;
+	font-weight: bolder;
+	width: max-content;
+}
+
+select
+{
+	margin: 1em auto;
 }
 
 section
 {
-	margin-left: auto;
-	margin-right: auto;
+	margin: 2em 15%;
+	background-color: #35CE7A;
+	border-radius: 15px;
+	padding: 2em;
 }
 
-form
+form > p
 {
-	width: 75%;
+	width: 100%;
+	text-align: center;
+}
+
+.radio
+{
+	margin: 0 auto;
+	width: 200px;
+}
+
+hr
+{
+	margin: 1em 0;
 }
 
 body
 {
-	background-color: #f2f2f2;
+	background-color: #FAF3DD;
+	width: 100%;
+}
+
+header
+{
+	background-color: #176038;
+	color: white;
+	padding: 2em;
+}
+
+#intro
+{
+	font-size: larger;
+}
+
+img
+{
+	display: block;
+	margin: 1em auto;
+	width: 50%;
+}
+
+header > h1
+{
+	width: 100%;
+	font-family: fantasy;
+	text-align: center;
+}
+
+*
+{
+	margin: 0 0;
+	padding: 0 0;
+}
+
+textarea
+{
+	margin: 1em auto;
+}
+
+input[type=submit]
+{
+	margin: 0 auto;
+	border: none;
+	padding: 20px 70px;
+	background-color: #757780;
+	width: 20%;
 }

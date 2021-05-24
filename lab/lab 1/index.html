@@ -3,33 +3,61 @@
 </head>
 <body>
 	<header>
-		<h1>Mon sondage très sérieux</h1>
+		<h1>Sondage sur le site de la ville de Gatineau</h1>
 	</header>
+	
 	<section>
+		<div id="intro">
+			<p>Voici le site web de la ville de Gatineau.</p>
+			<p>Dans ce sondage nous voulons recuillir de l'information sur l'utilisatbiliter du site web. Ci-dessous ce trouve un liens vers le site web en clickant sur l'image</p>
+			<a href="https://www.gatineau.ca/"><img src="image/capture.jpeg" alt="liens au site de gatineau"></a>
+		</div>
 		<form action="" method="post">
-			<input type="text"><br>
+			<hr>
+			<p>Decrivez en un mot si le site est attrayant</p>
+			<input type="text">
+			<hr>
 
-			<input type="radio" name="option" value="option 1">
-			<label for="option 1">option 1</label>
+			<p>sur un échelle de 1 à 5 deffénisser l'utilisatbiliter du site</p>
+			<div class="radio">
+				<input type="radio" name="rating" value="rating 1">
+				<label for="rating 1">1</label>
+				<input type="radio" name="rating" value="rating 2">
+				<label for="rating 1">2</label>
+				<input type="radio" name="rating" value="rating 3">
+				<label for="rating 1">3</label>
+				<input type="radio" name="rating" value="rating 4">
+				<label for="rating 1">4</label>
+				<input type="radio" name="rating" value="rating 5">
+				<label for="rating 1">5</label>
+			</div>
+			<hr>
 
-			<input type="radio" name="option" value="option 2">
-			<label for="option 2">option 2</label>
-
-			<input type="radio" name="option" value="option 3">
-			<label for="option 3">option 3</label>
-
-			<label for="select">select:</label>
-			<select name="select">
-				<option value="choice a">choice a</option>
-				<option value="choice b">choice b</option>
-				<option value="choice c">choice c</option>
+			<p>quelle langue avez utiliser le site</p>
+			<select name="langue">
+				<option value="choice a">français</option>
+				<option value="choice b">anglais</option>
 			</select>
  
-			<input type="checkbox" name="check" value="check 1">check 1
-			<input type="checkbox" name="check" value="check 2">check 2
-			<input type="checkbox" name="check" value="check 3">check 3
+			<hr>
+
+			<p>selectionner les mots définissant le site le mieux</p>
+
+			<div class="checkbox">
+				<p class="check">élégant</p><input type="checkbox" name="check" value="élégant">
+				<p class="check">magnifique</p><input type="checkbox" name="check" value="magnifique">
+				<p class="check">splandid</p><input type="checkbox" name="check" value="splandid">
+			</div>
+			<hr>
 			
-			<textarea name="comment" id="" cols="30" rows="10">entrer du text</textarea>
+			<p>decriver en plus de mot ce que vous aimer de l'apparance</p>
+			<textarea name="comment" id="" cols="70" rows="5">entrer du text</textarea>
+			<hr>
+
+			<p>decriver en plus de mot ce que vous n'aimer pas de l'apparance</p>
+			<textarea name="comment" id="" cols="70" rows="5">entrer du text</textarea>
+
+			<div class="button"><input type="submit" value="submit"></div>
 		</form>
 	</section>
 	<footer>
