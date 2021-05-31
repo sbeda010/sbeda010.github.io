@@ -89,7 +89,7 @@ var products = [
 		vegetarian: true,
 		glutenFree: false,
 		dairy: false,
-		organic: false,
+		organic: true,
 		nut: true,
 		price: 4.35
 	}
