@@ -38,5 +38,11 @@
 
   header {
 	  font-size: xx-large;
-	  
+
   }
+
+  footer{
+	position:fixed;
+	bottom:0;
+	left:0;
+   }
