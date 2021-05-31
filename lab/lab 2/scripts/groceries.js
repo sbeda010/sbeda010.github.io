@@ -109,6 +109,15 @@ function restrictListProducts(prods, restriction) {
 		else if ((restriction == "GlutenFree") && (prods[i].glutenFree == true)) {
 			product_names.push(prods[i].name);
 		}
+		else if ((restriction == "dairyFree") && (prods[i].dairy == fasle)) {
+			product_names.push(prods[i].name);
+		}
+		else if ((restriction == "organic") && (prods[i].organic == true)) {
+			product_names.push(prods[i].name);
+		}
+		else if ((restriction == "nutFree") && (prods[i].nut == false)) {
+			product_names.push(prods[i].name);
+		}
 		else if (restriction == "None") {
 			product_names.push(prods[i].name);
 		}
