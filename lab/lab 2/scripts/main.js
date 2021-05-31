@@ -84,7 +84,7 @@ function selectedItems(){
 		if (ele[i].checked) {
 			para.appendChild(document.createTextNode(ele[i].value));
 			para.appendChild(document.createElement("br"));
-			chosenProducts.push(((rele[i].value).replace(' ', '')).split(':')[0]);
+			chosenProducts.push(ele[i].value);
 		}
 	}
 		
