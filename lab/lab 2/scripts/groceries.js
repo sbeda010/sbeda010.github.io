@@ -101,7 +101,6 @@ var products = [
 // prices should be included in this list, as well as a sort based on price
 
 function restrictListProducts(prods, restriction, organic) {
-	console.log(organic);
 	let product_names = [];
 	for (let i = 0; i < prods.length; i += 1) {
 		if (!(organic == true && prods[i].organic == false)) {
