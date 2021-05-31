@@ -109,7 +109,7 @@ function restrictListProducts(prods, restriction) {
 		else if ((restriction == "GlutenFree") && (prods[i].glutenFree == true)) {
 			product_names.push(prods[i].name);
 		}
-		else if ((restriction == "dairyFree") && (prods[i].dairy == fasle)) {
+		else if ((restriction == "dairyFree") && (prods[i].dairy == false)) {
 			product_names.push(prods[i].name);
 		}
 		else if ((restriction == "organic") && (prods[i].organic == true)) {
