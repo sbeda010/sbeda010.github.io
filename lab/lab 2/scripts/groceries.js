@@ -121,6 +121,14 @@ function restrictListProducts(prods, restriction, organic) {
 			}	
 		}
 	}
+
+	product_names.sort(
+		function(a,b)
+		{
+			return a[1]-b[1]
+		}
+	);
+
 	return product_names;
 }
 
