@@ -7,19 +7,91 @@ var products = [
 		name: "brocoli",
 		vegetarian: true,
 		glutenFree: true,
+		dairy: false,
+		organic: false,
+		nut: false,
 		price: 1.99
 	},
 	{
 		name: "bread",
 		vegetarian: true,
 		glutenFree: false,
+		dairy: false,
+		organic: false,
+		nut: false,
 		price: 2.35
 	},
 	{
 		name: "salmon",
 		vegetarian: false,
 		glutenFree: true,
+		dairy: false,
+		organic: false,
+		nut: false,
 		price: 10.00
+	},
+	{
+		name: "granola bar with peanuts",
+		vegetarian: true,
+		glutenFree: false,
+		dairy: false,
+		organic: false,
+		nut: true,
+		price: 2.50
+	},
+	{
+		name: "cheeze",
+		vegetarian: true,
+		glutenFree: true,
+		dairy: true,
+		organic: false,
+		nut: false,
+		price: 4.50
+	},
+	{
+		name: "eggs",
+		vegetarian: false,
+		glutenFree: true,
+		dairy: false,
+		organic: false,
+		nut: false,
+		price: 2.00
+	},
+	{
+		name: "glutten free bread",
+		vegetarian: true,
+		glutenFree: true,
+		dairy: false,
+		organic: false,
+		nut: false,
+		price: 4.35
+	},
+	{
+		name: "apple",
+		vegetarian: true,
+		glutenFree: true,
+		dairy: false,
+		organic: false,
+		nut: false,
+		price: 1.05
+	},
+	{
+		name: "organic apple",
+		vegetarian: true,
+		glutenFree: true,
+		dairy: false,
+		organic: true,
+		nut: false,
+		price: 2.90
+	},
+	{
+		name: "organic granola bar",
+		vegetarian: true,
+		glutenFree: false,
+		dairy: false,
+		organic: false,
+		nut: true,
+		price: 4.35
 	}
 ];
 
